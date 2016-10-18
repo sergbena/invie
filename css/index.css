@@ -1,0 +1,145 @@
+*{
+	/*border: 1px solid black;*/
+	font-family:'Allerta', sans-serif;
+}
+/*cabecera*/
+span{
+	text-decoration: underline;
+}
+
+.cabecera{
+	background-image: url("../img/background.png");
+	background-size: cover; 
+	color:white;
+	height:300px;
+}
+
+.contenedor{
+	width: 500px;
+	margin: auto;
+}
+
+header{
+	display: flex;
+	position: relative;
+}
+#logo{
+	height: 30px;
+	width:90px;
+}
+header nav{
+	position: absolute;
+	display: inline-block;
+	right: 0;
+}
+
+header nav ul li{
+	display: inline-block;
+	margin-right: 20px;
+	padding-right: 20px;
+}
+header figure{
+	display: inline-block;
+	margin-left: 0;
+}
+
+header ul{
+	list-style-type: circle;
+}
+
+header a{
+	color: white;
+	text-decoration: none;
+}
+/*cuerpo*/
+#clases{
+	padding-top: 15px;
+	font-size: 14px;
+}
+
+#invieAcustica{
+	border:1px solid black;
+	position: relative;
+	display: flex;
+	border-radius: 5px;
+	margin-top: 15px;
+	height: 160px;
+}
+
+#acusLet{
+	display: flex;
+	flex-direction: column;
+}
+
+#acustic{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	height: 240px;
+}
+
+#invieClassic{
+	margin-top: 15px;
+	margin-bottom:15px;
+	display: flex;
+	position: relative;
+	height: 150px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+#clasic{
+	position: absolute;
+	height: 180px;
+	width: 280px;
+	top: 0;
+	left: 0;
+}
+
+#claslet{
+	position: absolute;
+	right: 0;
+}
+
+/*footer*/
+footer{
+	background: #273B47;
+	color: white;
+}
+
+footer p{
+	margin-bottom: 5px;
+}
+
+#foot{
+	display: flex;
+	justify-content: space-around;
+}
+
+#contacto{
+	position: relative;
+}
+
+#logof{
+width: 150px;
+}
+
+table{
+	font-size: 10px;
+	margin-left: 35px;
+}
+
+form{
+	display: flex;
+	font-size: 12px;
+}
+
+#comentarios{
+	margin-left: 5px;
+}
+#boton{
+	background: linear-gradient(to right,#FFA750,#FC6032);
+	border-radius: 3px;
+}
+
+
